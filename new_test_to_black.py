@@ -8,3 +8,7 @@ class Cachorro():
 
 cachorro = Cachorro()
 cachorro.latir()
+
+x = 3
+cachorro.latir()
+print(x)
