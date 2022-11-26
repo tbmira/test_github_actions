@@ -1,0 +1,24 @@
+name: my_first_action
+run-name: ${{ github.actor }} is running the programm
+
+on: workflow_dispatch
+
+jobs:
+  my_first_action
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python Version
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      - name: Run programm
+        run: py test.py
+      
+      - name: Upload output file
+        uses: actions/upload-artifact@v3
+        with:
+          name: output-file
+          path: outputFile.txt
