@@ -1,9 +1,10 @@
 class Cachorro():
     def __init__(self):
-        cor = "branco"
+        self.cor = "branco"
 
     def latir(self):
         print("au au")
 
-cachorro =  Cachorro()
+
+cachorro = Cachorro()
 cachorro.latir()
