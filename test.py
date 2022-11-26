@@ -11,4 +11,4 @@ file.write('Olha eu aquiiii!')
 print('Done ;)')
 
 f = open(full_path, 'r')
-print((f.read_line()))
+print((f.readline()))
