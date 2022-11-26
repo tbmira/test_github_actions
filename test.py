@@ -9,3 +9,6 @@ file = open(full_path, 'w')
 
 file.write('Olha eu aquiiii!')
 print('Done ;)')
+
+f = open(full_path, 'r')
+print((f.read_line()))
