@@ -5,9 +5,8 @@ class Cachorro:
     def latir(self):
         print("au au")
 
-
 cachorro = Cachorro()
-cachorro.latir()  # au au
+cachorro.latir() # au au
 a = [1, 2, 3]
 
 x = 3
