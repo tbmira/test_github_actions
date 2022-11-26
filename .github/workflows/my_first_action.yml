@@ -4,8 +4,9 @@ run-name: ${{ github.actor }} is running the programm
 on: workflow_dispatch
 
 jobs:
-  my_first_action
+  my_first_action:
     runs-on: windows-latest
+    
     steps:
       - uses: actions/checkout@v3
 
