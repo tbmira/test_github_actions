@@ -12,3 +12,5 @@ print('Done ;)')
 
 f = open(full_path, 'r')
 print((f.readline()))
+
+file_2 = open(full_path.replace('.txt', '_2.txt', 'w')
