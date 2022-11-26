@@ -1,5 +1,5 @@
 def pow(b, e):
-  return b^e
+    return b ^ e
 
 
 x = 3
