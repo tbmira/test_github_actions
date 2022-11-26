@@ -1,9 +1,10 @@
-def pow(b, e):
-    return b ^ e
+import os
 
 
-x = 3
-print(pow(x, 2))
+absolute_path = os.path.dirname(__file__)
+relative_path = 'outFile.txt'
+full_path = os.path.join(absolute_path, relative_path)
 
-y = 2
-print(pow(y, 3))
+file = open(full_path, 'w')
+
+file.write('Olha eu aquiiii!')
