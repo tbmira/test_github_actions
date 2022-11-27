@@ -14,4 +14,3 @@ print((f.readline()))
 file_2 = open(full_path.replace(".txt", "_2.txt", 'w'))
 a = [1,
      2]
-#......
